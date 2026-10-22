@@ -1,0 +1,110 @@
+2026-10-22 17:06:30,889 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2026-10-22 17:06:32,923 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000018B7FDE41A0>
+2026-10-22 17:06:32,924 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-10-22 17:06:32,925 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-10-22 17:06:32,925 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-10-22 17:06:32,926 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-10-22 17:06:32,926 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-10-22 17:06:37,422 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Thu, 22 Oct 2026 14:06:37 GMT'), (b'Transfer-Encoding', b'chunked')])
+2026-10-22 17:06:37,422 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+2026-10-22 17:06:37,423 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-10-22 17:06:37,423 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-10-22 17:06:37,424 - httpcore.http11 - DEBUG - response_closed.started
+2026-10-22 17:06:37,424 - httpcore.http11 - DEBUG - response_closed.complete
+2026-10-22 17:06:37,427 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-10-22 17:06:37,428 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-10-22 17:06:37,428 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-10-22 17:06:37,428 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-10-22 17:06:37,429 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-10-22 17:06:37,497 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Thu, 22 Oct 2026 14:06:37 GMT'), (b'Transfer-Encoding', b'chunked')])
+2026-10-22 17:06:37,498 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+2026-10-22 17:06:37,498 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-10-22 17:06:37,499 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-10-22 17:06:37,499 - httpcore.http11 - DEBUG - response_closed.started
+2026-10-22 17:06:37,499 - httpcore.http11 - DEBUG - response_closed.complete
+2026-10-22 17:06:37,501 - LangChainLogger - INFO - Debug Message : LLMChainFilter olmadan elde edilen dökümanlar
+2026-10-22 17:06:37,501 - LangChainLogger - INFO - Toplam Doküman Sayısı : 4
+2026-10-22 17:06:37,502 - LangChainLogger - INFO - Doküman İçeriği : Teknoloji tarihi, dünyayı değiştiren pek çok girişimle doludur. Google, Larry Page ve Sergey Brin tarafından 4 Eylül 1998 tarihinde kurulmuştur. Günümüzde dünyanın en büyük arama motoru ve teknoloji şirketlerinden biridir.
+2026-10-22 17:06:37,502 - LangChainLogger - INFO - Metadata yazdırılıyor
+2026-10-22 17:06:37,502 - LangChainLogger - INFO - Metadata :
+{}
+2026-10-22 17:06:37,502 - LangChainLogger - INFO - ----------------------------------------------------------------------------------------------------
+2026-10-22 17:06:37,503 - LangChainLogger - INFO - Doküman İçeriği : Bilgisayar bilimi alanındaki gelişmeler 20. yüzyılın ortalarında hız kazanmıştır. Genel amaçlı ilk elektronik dijital bilgisayar olan ENIAC, 1945 yılında tamamlanarak hizmete girmiştir. Yaklaşık 30 ton ağırlığındaki bu devasa makine, dönemin askeri hesaplamaları için tasarlanmıştır.
+2026-10-22 17:06:37,503 - LangChainLogger - INFO - Metadata yazdırılıyor
+2026-10-22 17:06:37,503 - LangChainLogger - INFO - Metadata :
+{}
+2026-10-22 17:06:37,504 - LangChainLogger - INFO - ----------------------------------------------------------------------------------------------------
+2026-10-22 17:06:37,504 - LangChainLogger - INFO - Doküman İçeriği : Fenerbahçe Spor Kulübü, Türk spor tarihinde önemli bir yere sahiptir. 1907 yılında İstanbul'da kurulan köklü Türk spor kulübüdür. Sarı-lacivert renkleriyle bilinen kulüp, futbolun yanı sıra pek çok branşta da faaliyet göstermektedir.
+2026-10-22 17:06:37,504 - LangChainLogger - INFO - Metadata yazdırılıyor
+2026-10-22 17:06:37,504 - LangChainLogger - INFO - Metadata :
+{}
+2026-10-22 17:06:37,505 - LangChainLogger - INFO - ----------------------------------------------------------------------------------------------------
+2026-10-22 17:06:37,505 - LangChainLogger - INFO - Doküman İçeriği : Müzik endüstrisi dijitalleşme ile birlikte büyük bir dönüşüm geçirmiştir. Alan Walker, özellikle 'Faded' adlı elektronik müzik parçasıyla tanınan DJ ve yapımcıdır. Sanatçı, maskeli imajıyla da müzik dünyasında kendine özgü bir yer edinmiştir.
+2026-10-22 17:06:37,505 - LangChainLogger - INFO - Metadata yazdırılıyor
+2026-10-22 17:06:37,505 - LangChainLogger - INFO - Metadata :
+{}
+2026-10-22 17:06:37,506 - LangChainLogger - INFO - ----------------------------------------------------------------------------------------------------
+2026-10-22 17:06:37,507 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-10-22 17:06:37,507 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-10-22 17:06:37,507 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-10-22 17:06:37,508 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-10-22 17:06:37,508 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-10-22 17:06:37,570 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Thu, 22 Oct 2026 14:06:37 GMT'), (b'Transfer-Encoding', b'chunked')])
+2026-10-22 17:06:37,571 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+2026-10-22 17:06:37,571 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-10-22 17:06:37,572 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-10-22 17:06:37,572 - httpcore.http11 - DEBUG - response_closed.started
+2026-10-22 17:06:37,572 - httpcore.http11 - DEBUG - response_closed.complete
+2026-10-22 17:06:37,576 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2026-10-22 17:06:39,607 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000018B7FE31450>
+2026-10-22 17:06:39,607 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-10-22 17:06:39,608 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-10-22 17:06:39,608 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-10-22 17:06:39,609 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-10-22 17:06:39,609 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-10-22 17:06:40,060 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Content-Type', b'application/json'), (b'Date', b'Thu, 22 Oct 2026 14:06:40 GMT'), (b'Server', b'Google Frontend'), (b'Traceparent', b'00-80c08524aae564045cd1ba77c981afd3-faae59cb049c4d4e-00'), (b'Via', b'1.1 google'), (b'X-Build-Commit', b'88ff04de0e0c7d4952eea181aa316b019a3b393f'), (b'X-Build-Time', b'2026-10-21T22:54:17-07:00'), (b'X-Cloud-Trace-Context', b'80c08524aae564045cd1ba77c981afd3/18063473883920223566'), (b'X-Frame-Options', b'DENY'), (b'X-Request-Id', b'643f6242-59dd-4bbd-9ac1-c69dd6b29a05'), (b'Transfer-Encoding', b'chunked')])
+2026-10-22 17:06:40,061 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-10-22 17:06:40,062 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-10-22 17:06:40,443 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-10-22 17:06:40,443 - httpcore.http11 - DEBUG - response_closed.started
+2026-10-22 17:06:40,443 - httpcore.http11 - DEBUG - response_closed.complete
+2026-10-22 17:06:40,445 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-10-22 17:06:40,446 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-10-22 17:06:40,446 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-10-22 17:06:40,447 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-10-22 17:06:40,447 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-10-22 17:06:40,757 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Content-Type', b'application/json'), (b'Date', b'Thu, 22 Oct 2026 14:06:41 GMT'), (b'Server', b'Google Frontend'), (b'Traceparent', b'00-9b697f6942cc45aff190a3be956ea6b6-a021ee6404de6d1c-00'), (b'Via', b'1.1 google'), (b'X-Build-Commit', b'88ff04de0e0c7d4952eea181aa316b019a3b393f'), (b'X-Build-Time', b'2026-10-21T22:54:17-07:00'), (b'X-Cloud-Trace-Context', b'9b697f6942cc45aff190a3be956ea6b6/11538765833645747484'), (b'X-Frame-Options', b'DENY'), (b'X-Request-Id', b'd3042601-c5b4-415f-99e3-b29929189ea5'), (b'Transfer-Encoding', b'chunked')])
+2026-10-22 17:06:40,757 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-10-22 17:06:40,758 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-10-22 17:06:40,950 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-10-22 17:06:40,951 - httpcore.http11 - DEBUG - response_closed.started
+2026-10-22 17:06:40,951 - httpcore.http11 - DEBUG - response_closed.complete
+2026-10-22 17:06:40,953 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-10-22 17:06:40,954 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-10-22 17:06:40,954 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-10-22 17:06:40,955 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-10-22 17:06:40,955 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-10-22 17:06:41,255 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Content-Type', b'application/json'), (b'Date', b'Thu, 22 Oct 2026 14:06:42 GMT'), (b'Server', b'Google Frontend'), (b'Traceparent', b'00-1284e2249c215a0af190a3be956eab8d-fa22681e05fbbb10-00'), (b'Via', b'1.1 google'), (b'X-Build-Commit', b'88ff04de0e0c7d4952eea181aa316b019a3b393f'), (b'X-Build-Time', b'2026-10-21T22:54:17-07:00'), (b'X-Cloud-Trace-Context', b'1284e2249c215a0af190a3be956eab8d/18024083136848837392'), (b'X-Frame-Options', b'DENY'), (b'X-Request-Id', b'1cacbe2f-12f3-4013-80f5-d0cdcd236d25'), (b'Transfer-Encoding', b'chunked')])
+2026-10-22 17:06:41,257 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-10-22 17:06:41,258 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-10-22 17:06:41,451 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-10-22 17:06:41,452 - httpcore.http11 - DEBUG - response_closed.started
+2026-10-22 17:06:41,453 - httpcore.http11 - DEBUG - response_closed.complete
+2026-10-22 17:06:41,456 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-10-22 17:06:41,457 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-10-22 17:06:41,457 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-10-22 17:06:41,458 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-10-22 17:06:41,459 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-10-22 17:06:41,768 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Content-Type', b'application/json'), (b'Date', b'Thu, 22 Oct 2026 14:06:42 GMT'), (b'Server', b'Google Frontend'), (b'Traceparent', b'00-6306cf48b9452fd8f190a3be956ea0f6-13492bf74c044d22-00'), (b'Via', b'1.1 google'), (b'X-Build-Commit', b'88ff04de0e0c7d4952eea181aa316b019a3b393f'), (b'X-Build-Time', b'2026-10-21T22:54:17-07:00'), (b'X-Cloud-Trace-Context', b'6306cf48b9452fd8f190a3be956ea0f6/1389690301152775458'), (b'X-Frame-Options', b'DENY'), (b'X-Request-Id', b'f8aa1f7d-37fd-4b15-8183-0515707c426c'), (b'Transfer-Encoding', b'chunked')])
+2026-10-22 17:06:41,769 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-10-22 17:06:41,770 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-10-22 17:06:41,937 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-10-22 17:06:41,938 - httpcore.http11 - DEBUG - response_closed.started
+2026-10-22 17:06:41,938 - httpcore.http11 - DEBUG - response_closed.complete
+2026-10-22 17:06:41,939 - LangChainLogger - INFO - Debug Message : LLMChainFilter ile elde edilen dökümanlar
+2026-10-22 17:06:41,939 - LangChainLogger - INFO - Toplam Doküman Sayısı : 1
+2026-10-22 17:06:41,939 - LangChainLogger - INFO - Doküman İçeriği : Google, Larry Page ve Sergey Brin tarafından 4 Eylül 1998 tarihinde kurulmuştur.
+2026-10-22 17:06:41,940 - LangChainLogger - INFO - Metadata yazdırılıyor
+2026-10-22 17:06:41,940 - LangChainLogger - INFO - Metadata :
+{}
+2026-10-22 17:06:41,940 - LangChainLogger - INFO - ----------------------------------------------------------------------------------------------------
